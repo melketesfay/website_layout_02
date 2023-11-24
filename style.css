@@ -1,0 +1,142 @@
+body{
+    box-sizing: border-box;
+    background-color: rgb(16, 16, 39);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+
+/* NAV CSS */
+
+nav{
+    
+    
+    margin: 0;
+}
+
+.nav-container{
+    margin: 0 5rem;
+    padding: 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-buttons > * {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(80, 80, 93);
+    
+}
+
+nav a:hover{
+    color: rgb(116, 116, 141);
+}
+
+
+
+.logo > * {
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+nav>  ul> li> a {
+    margin: 10px;
+}
+
+/*ASIDE PART*/
+
+aside{
+    background-color: rgb(22, 22, 53);
+  min-height: 30rem;
+}
+
+.hero {
+    
+    text-align: center;
+    color: rgb(116, 116, 141);
+}
+
+/* MAIN PART*/
+
+.main-conatiner {
+    display: grid;
+    
+    grid-template-columns: repeat(4,1fr);
+    gap: 1.5rem;
+    margin-top: 5rem;
+}
+
+.main-conatiner-elements-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+    background-color: rgb(16, 16, 39);
+}
+
+.main-conatiner-elements-2{
+    background-color:rgb(16, 16, 39);
+
+}
+
+.main-conatiner-elements-3{
+background-color: rgb(16, 16, 39);
+grid-column-start: 4;
+grid-column-end: 5;
+grid-row-start: 1;
+grid-row-end: 3;
+
+}
+.main-conatiner-elements-4{
+background-color: rgb(16, 16, 39);
+grid-column-start: 2;
+grid-column-end: 4;
+}
+
+.main-conatiner-elements-5{
+background-color: rgb(16, 16, 39);
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 2;
+grid-row-end: 3;
+}
+
+.main-conatiner > * {
+    padding: 1rem;
+    border-radius: 1rem;
+    color: rgb(116, 116, 141);
+
+}
+
+.main-conatiner > *:hover{
+    background-color: rgb(22, 22, 53);
+}
+
+
+ul{
+    padding-left: 0px;
+}
+
+
+.svg{
+   position: absolute;
+    z-index: 0;
+    margin-bottom: 5rem;
+}
+
+.title{
+    position: absolute;
+    z-index: 1;
+   top: 50%;
+   left: 50%;
+   color: red;
+
+}
